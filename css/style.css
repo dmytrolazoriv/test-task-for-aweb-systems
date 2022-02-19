@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* diamond weekend section start */
+
+.diamond-weekend {
+    padding-bottom: 120px;
+}
+
+.diamond-weekend-container {
+    max-width: 1440px;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    padding: 33px 41px 0 41px;
+}
+
+.diamond-weekend-gallery {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.diamond-weekend-container-1 {
+    background-image: url("../images/diamond-weekend-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: 652px;
+    height: 393px;
+
+    
+    padding: 68px 98px 68px 98px;
+
+    position: relative;
+}
+
+.diamond-weekend-container-1::after {
+    content: "";
+
+    width: 652px;
+    height: 393px;
+
+    background-color: #eeeeee;
+    
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    z-index: -1;
+}
+
+/* .diamond-weekend-img {
+} */
+
+.diamond-weekend-heading {
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #ffffff;
+
+    margin-bottom: 22px;
+}
+
+.diamond-weekend-text {
+    width: 316px;
+
+    color: #ffffff;
+
+    margin-bottom: 30px;
+}
+
+.diamond-weekend-btn,
+.watch-btn {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #000000;
+    background-color: #34a9a2;
+    padding: 8px 28px;
+
+    cursor: pointer;
+}
+
+.diamond-weekend-container-2 {
+    background-image: url("../images/diamond-weekend-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: 652px;
+    height: 393px;
+
+    padding: 68px 98px 68px 98px;
+
+    position: relative;
+    top: 10px;
+}
+
+.diamond-weekend-container-2::after {
+    content: "";
+
+    width: 652px;
+    height: 393px;
+
+    background-color: #eeeeee;
+    
+    position: absolute;
+    bottom: 32px;
+    left: 11px;
+    z-index: -1;
+}
+
+/* .watch {
+} */
+.watch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 200px;
+
+    padding: 48px 94px;
+
+    position: relative;
+}
+
+/* .watch-img {
+} */
+
+.watch-container::before {
+    content: "";
+
+    width: 1px;
+    height: 220px;
+
+    background-color: #c4c4c4;
+    
+    position: absolute;
+    top: 86px;
+    left: 535px;
+}
+
+/* .watch-info {
+
+} */
+
+.watch-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+    width: 645px;
+
+    margin-bottom: 30px;
+}
+
+/* diamond weekend section end */
