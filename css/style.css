@@ -17,7 +17,7 @@ body {
     padding-bottom: 120px;
 }
 
-.diamond-weekend-container {
+.container {
     max-width: 1440px;
 
     margin-left: 0;
@@ -170,3 +170,228 @@ body {
 }
 
 /* diamond weekend section end */
+
+/* bracelets section start */
+
+.bracelets {
+    font-family: 'Roboto';
+
+    padding-bottom: 120px;
+}
+.container {
+}
+
+.bracelets-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.bracelets-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bracelets-arrows {
+}
+
+.left-arrow {
+    margin-right: 54px;
+}
+
+.right-arrow,
+.left-arrow  {
+    cursor: pointer;
+}
+
+.bracelets-items {
+    display: flex;
+    column-gap: 46px;
+
+    margin-bottom: 50px;
+}
+
+.bracelets-item {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.bracelets-img {
+    position: relative;
+
+    margin-bottom: 25px;
+}
+
+.bracelets-img p {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 20px;
+    left: 247px;
+}
+
+.bracelets-description {
+    margin-bottom: 22px;
+    margin-left: 14px;
+}
+
+.bracelets-vendor {
+    font-size: 10px;
+    line-height: 12px;
+
+    margin-bottom: 14px;
+}
+
+.bracelets-description-text {
+    font-size: 14px;
+    line-height: 16px;
+
+    width: 290px;
+}
+
+.bracelets-color-sel {
+}
+
+.bracelets-color-sel-text {
+    font-size: 10px;
+    line-height: 12px;
+
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+.bracelets-colors {
+    text-align: center;
+
+    margin-bottom: 38px;
+}
+
+.color-1 {
+    width: 16px;
+    height: 16px;
+
+    display: inline-block;
+
+    background-color: #d2a736;
+
+    position: relative;
+    margin-right: 10px;
+}
+
+.color-1::after {
+    content: "";
+
+    width: 22px;
+    height: 22px;
+
+    display: inline-block;
+
+    border: 1px solid #000000;
+
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.color-2 {
+    width: 16px;
+    height: 16px;
+
+    display: inline-block;
+
+    background-color: #e8e8e8;
+    margin-right: 10px;
+}
+
+.color-3 {
+    width: 16px;
+    height: 16px;
+
+    display: inline-block;
+
+    background-color: #efc7bb;;
+}
+
+.bracelets-price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bracelets-price-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bracelets-price-text {
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #666666;
+
+    position: relative;
+
+    margin: 16px 0 16px 0;
+}
+
+.bracelets-price-text-active {
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #666666;
+
+    margin-right: 20px;
+}
+
+.bracelets-price-text::after {
+    content: "";
+
+    width: 1px;
+    height: 50px;
+
+    background-color: #000000;
+
+    position: absolute;
+    top: -14px;
+    left: 98px;
+}
+
+.bracelets-price-buy {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #34a9a2;
+}
+
+.bracelets-price-buy-active {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #34a9a2;
+    background-color: #000000;
+    box-shadow: 0px 4px 4px rgba(155, 14, 222, 0.25);
+
+    padding: 16px 26px;
+}
+
+.bracelets-bottom {
+    display: flex;
+    justify-content: flex-end
+}
+
+/* bracelets section end */
