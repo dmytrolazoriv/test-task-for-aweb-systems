@@ -14,14 +14,14 @@ body {
 /* diamond weekend section start */
 
 .diamond-weekend {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .container {
     max-width: 1440px;
 
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
 
     padding: 33px 41px 0 41px;
 }
@@ -176,7 +176,7 @@ body {
 .bracelets {
     font-family: 'Roboto';
 
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 .container {
 }
@@ -245,6 +245,7 @@ body {
 .bracelets-vendor {
     font-size: 10px;
     line-height: 12px;
+    font-weight: 300;
 
     margin-bottom: 14px;
 }
@@ -395,3 +396,318 @@ body {
 }
 
 /* bracelets section end */
+
+
+/* app section start */
+
+.app {
+    font-family: 'Inter';
+
+    margin-bottom: 120px;
+
+    background-color: #171836;
+}
+.container-1 {
+    max-width: 1440px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 60px 120px 100px 120px;
+}
+
+.app-box {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 120px;
+
+    background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+    border-radius: 40px;
+
+    padding: 40px 100px 0 100px;
+}
+
+.app-box-left-part {
+}
+.app-box-left-part-desc {
+}
+
+.app-box-left-part-title {
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 76px;
+
+    color: #ffffff;
+    opacity: 0.7;
+
+    margin-bottom: 20px;
+}
+
+.app-box-left-part-text {
+    font-size: 18px;
+    line-height: 32px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+    width: 406px;
+
+    margin-bottom: 40px;
+}
+
+.app-box-left-part-images {
+    line-height: 0;
+    margin-bottom: 100px;
+}
+
+.app-box-left-part-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.app-box-left-part-link:first-child {
+    margin-right: 26px;
+}
+
+.app-box-left-part-img {
+}
+
+.app-box-right-part {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.192) 0%, rgba(255, 255, 255, 0.088) 100%);
+    border-radius: 20px 20px 0 0;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom-width: 0;
+
+    padding: 24px 20px 0 20px;
+
+    width: 284px;
+
+    position: relative;
+}
+
+.app-box-right-part-illust {
+}
+.app-box-right-part-illust-card {
+}
+
+.app-box-right-part-illust-card-top-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    position: relative;
+}
+
+.app-box-right-part-illust-card-top-part::after {
+    content: "";
+
+    position: absolute;
+
+    background-image: url("../images/top-image.png");
+    width: 62px;
+    height: 62px;
+
+    top: 30px;
+    left: -102px;
+}
+
+.app-box-right-part-illust-card-top-part-l {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-box-right-part-illust-card-top-part-avatar {
+    line-height: 0;
+
+    margin-right: 10px;
+}
+.app-box-right-part-illust-card-top-part-text {
+}
+
+.app-box-right-part-illust-card-top-part-text-name {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-bottom: 4px;
+}
+
+.app-box-right-part-illust-card-top-part-text-member {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.app-box-right-part-illust-card-top-part-r {
+}
+.app-box-right-part-illust-card-top-part-crown {
+}
+
+.app-box-right-part-illust-card-mid-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(18, 11, 35, 0.09);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+
+    padding: 20px 22px;
+
+    margin-bottom: 60px;
+
+    position: relative;
+}
+
+.app-box-right-part-illust-card-mid-part::after {
+    content: "";
+
+    position: absolute;
+
+    background-image: url("../images/middle-image.png");
+    width: 46px;
+    height: 45px;
+
+    top: 77px;
+    left: -76px;
+}
+
+.app-box-right-part-illust-card-mid-part-illust-l {
+    margin-right: 24px;
+}
+
+.app-box-right-part-illust-card-mid-part-text-r {
+}
+
+.app-box-right-part-illust-card-mid-part-text-r-tl {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+
+    color: #ffffff;
+    opacity: 0.8;
+
+    width: 100px;
+
+    margin-bottom: 6px;
+}
+
+.app-box-right-part-illust-card-mid-part-text-r-tx {
+    font-size: 8px;
+    line-height: 12px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    width: 110px;
+}
+
+.app-box-right-part-illust-card-bot-part {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    position: absolute;
+    top: 280px;
+    right: 20px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-l {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+
+    padding: 60px 16px 13px 16px;
+
+    width: 160px;
+
+    position: relative;
+}
+
+.app-box-right-part-illust-card-bot-part-case-l-illust {
+    position: absolute;
+
+    top: -40px;
+    left: 30px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-l-tx {
+    display: flex;
+    align-items: center;
+}
+
+.app-box-right-part-illust-card-bot-part-case-l-tx-mf {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 600;
+
+    color: #ffffff;
+    opacity: 0.7;
+
+    width: fit-content;
+
+    margin-right: 22px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-l-arrow {
+}
+
+.app-box-right-part-illust-card-bot-part-case-r {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+
+    padding: 60px 16px 13px 16px;
+
+    width: 160px;
+
+    position: relative;
+}
+
+.app-box-right-part-illust-card-bot-part-case-r::after {
+    content: "";
+
+    position: absolute;
+
+    background-image: url("../images/bottom-image.png");
+    width: 52px;
+    height: 52px;
+
+    top: -61px;
+    right: -55px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-r-illust {
+    position: absolute;
+
+    top: -40px;
+    left: 20px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-r-tx {
+    display: flex;
+    align-items: center;
+}
+
+.app-box-right-part-illust-card-bot-part-case-r-tx-mf {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 600;
+
+    color: #ffffff;
+    opacity: 0.7;
+
+    width: fit-content;
+
+    margin-right: 22px;
+}
+
+.app-box-right-part-illust-card-bot-part-case-r-arrow {
+}
+
+/* app section end */
