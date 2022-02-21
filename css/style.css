@@ -407,6 +407,7 @@ body {
 
     background-color: #171836;
 }
+
 .container-1 {
     max-width: 1440px;
 
@@ -414,6 +415,10 @@ body {
     margin-right: auto;
 
     padding: 60px 120px 100px 120px;
+}
+
+.app-box-inner {
+    display: none;
 }
 
 .app-box {
@@ -1882,3 +1887,907 @@ input[type="text"] {
 }
 
 /* Media queries for bracelets section end  */
+
+/* Media queries for app section start  */
+@media (max-width: 1200px) {
+    .app-box {
+        column-gap: 110px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .app-box {
+        column-gap: 110px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 44px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 16px;
+        width: 386px
+    }
+}
+
+@media (max-width: 1120px) {
+    .app-box {
+        column-gap: 100px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 44px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 16px;
+        width: 386px
+    }
+
+    .app-box-right-part {
+        width: 264px;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 18px 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 50px 14px 10px 14px;
+        width: 140px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 50px 14px 10px 14px;
+        width: 140px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -40px;
+        left: 10px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 100%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .app-box {
+        column-gap: 80px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 44px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 16px;
+        width: 386px
+    }
+
+    .app-box-right-part {
+        width: 254px;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 18px 14px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 50px 14px 10px 14px;
+        width: 134px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 50px 14px 10px 14px;
+        width: 134px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 16px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -40px;
+        left: 6px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 100%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 100%;
+    }
+
+    .app-box-left-part-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .app-box {
+        column-gap: 80px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+
+        width: 366px;
+    }
+
+    .app-box-right-part {
+        width: 244px;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 18px 14px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 50px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 50px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 12px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -40px;
+        left: 4px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 100%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 100%;
+    }
+
+    .app-box-left-part-img {
+        max-width: 136px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .app-box {
+        column-gap: 60px;
+        padding: 40px 60px 0 60px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+
+        width: 286px;
+    }
+
+    .app-box-right-part {
+        width: 244px;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 18px 14px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -40px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 80%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 80%;
+
+        margin-left: 4px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+}
+
+
+@media (max-width: 970px) {
+    .app-box {
+        column-gap: 80px;
+        padding: 40px 40px 0 40px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+
+        width: 286px;
+    }
+
+    .app-box-right-part {
+        width: 234px;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 14px 12px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -36px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 70%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+
+    .app-box-right-part-illust-card-mid-part::after {
+        top: 67px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r::after {
+        top: -71px;
+    }
+}
+
+@media (max-width: 930px) {
+    .app-box {
+        column-gap: 80px;
+        padding: 40px 40px 0px 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        height: 710px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+
+        width: 386px;
+
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part {
+        width: 234px;
+
+        height: 100%;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 14px 12px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 40px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -36px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 70%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+
+    .app-box-right-part-illust-card-mid-part::after {
+        top: 67px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r::after {
+        top: -71px;
+    }
+
+    .app-box-left-part-images {
+        display: flex;
+        justify-content: center;
+
+        line-height: 0;
+        margin-bottom: 40px;
+    }
+
+    .app-box-left-part-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 740px) {
+    .app-box {
+        column-gap: 80px;
+        padding: 40px 40px 0px 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        height: 710px;
+    }
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+        text-align: center;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+
+        width: 386px;
+
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part {
+        width: 254px;
+
+        height: 100%;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 14px 12px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 30px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 30px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -36px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 70%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+
+    .app-box-right-part-illust-card-mid-part::after {
+        top: 67px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r::after {
+        top: -71px;
+    }
+
+    .app-box-left-part-images {
+        display: flex;
+        justify-content: center;
+
+        line-height: 0;
+        margin-bottom: 40px;
+    }
+
+    .app-box-left-part-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-box-right-part-illust-card-top-part::after {
+        top: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part {
+        top: 250px;
+    }
+
+    .app-box-right-part-illust-card-top-part {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .app-box {
+        column-gap: 80px;
+        padding: 40px 40px 0px 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        height: 710px;
+
+        background: unset;
+        border-radius: unset;
+
+        position: relative;
+
+        z-index: 1;
+    }
+
+    /* .container-1 {
+        position: relative;
+    } */
+
+    .app-box::after {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 120px;
+        background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+
+        position: absolute;
+
+        content: "";
+        top: 30px;
+        left: -120px;
+        width: 1440px;
+        height: 680px;
+
+        z-index: -1;
+    } 
+
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+
+        width: 386px;
+
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part-illust-card-top-part-text-name {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .app-box-right-part-illust-card-top-part-text-member {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .app-box-right-part {
+        width: 224px;
+
+        height: 100%;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 14px 12px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 38px;
+        height: 38px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 30px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 30px 12px 10px 12px;
+        width: 130px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -40px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -36px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 70%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+
+    .app-box-right-part-illust-card-mid-part::after {
+        top: 57px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r::after {
+        top: -71px;
+    }
+
+    .app-box-left-part-images {
+        display: flex;
+        justify-content: center;
+
+        line-height: 0;
+        margin-bottom: 40px;
+    }
+
+    .app-box-left-part-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-box-right-part-illust-card-top-part::after {
+        top: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part {
+        top: 250px;
+    }
+
+    .app-box-right-part-illust-card-top-part {
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        position: absolute;
+        top: 250px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .app-box-left-part-title {
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .app-box-left-part-text {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+
+        width: 296px;
+
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part-illust-card-top-part-text-name {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .app-box-right-part-illust-card-top-part-text-member {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .app-box-right-part {
+        width: 204px;
+
+        height: 100%;
+    }
+
+    .app-box-right-part-illust-card-mid-part {
+        padding: 12px 10px;
+    }
+
+
+    .app-box-right-part-illust-card-mid-part-illust-l svg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-illust-l {
+        margin-right: 10px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l {
+        padding: 20px 12px 10px 12px;
+        width: 110px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r {
+        padding: 20px 12px 10px 12px;
+        width: 110px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust {
+        position: absolute;
+        top: -34px;
+        left: 22px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust {
+        position: absolute;
+        top: -30px;
+        left: 14px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-illust img {
+        max-width: 70%;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-illust img {
+        max-width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .app-box-left-part-img {
+        max-width: 120px;
+    }
+
+    .app-box-right-part-illust-card-mid-part::after {
+        top: 67px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r::after {
+        top: -71px;
+    }
+
+    .app-box-left-part-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        line-height: 0;
+        margin-bottom: 40px;
+    }
+
+    .app-box-left-part-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-box-right-part-illust-card-top-part::after {
+        top: 10px;
+    }
+
+    .app-box-right-part-illust-card-bot-part {
+        top: 250px;
+    }
+
+    .app-box-right-part-illust-card-top-part {
+        margin-bottom: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        position: absolute;
+        top: 250px;
+        right: 20px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-l-tx-mf {
+        font-size: 10px;
+    }
+
+    .app-box-right-part-illust-card-bot-part-case-r-tx-mf {
+        font-size: 10px;
+    }
+
+    .app-box-right-part-illust-card-mid-part-text-r-tx {
+        width: 80px;
+    }
+
+    .app-box-right-part-illust-card-top-part-avatar svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .app-box-right-part-illust-card-top-part-crown svg {
+        width: 20px;
+        height: 13px;
+    }
+
+    .app-box-right-part-illust-card-top-part::after {
+        left: -92px;
+    }
+}
+
+/* Media queries for app section end  */
